@@ -1,0 +1,194 @@
+<head>
+<meta charset="utf-8">
+<title>Портфолио Лены Глубко</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Свои стили -->
+ <link href="css/styles.css" rel="stylesheet">
+<!-- Бутстрап -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Лайкли -->
+ <script src="ilya-birman-likely/likely.js"></script>
+ <link rel="stylesheet" href="ilya-birman-likely/likely.css">
+ <!-- Джаваскрипт -->
+ <script src="js/jquery.min.js"></script>
+ <style>
+ .work__margin_left{
+   margin-left: 20px;
+ }
+ .work__p {
+   font-size: 12px !important;
+ }
+.work__img_center {
+  display: block;
+  margin: 1ex auto;
+}
+
+
+ </style>
+  </head>
+<body>
+<noscript><div class="java-doesnt-work">У&nbsp;вас отлючен javascript, поэтому страница может работать неправильно. Чтобы&nbsp;все&nbsp;работало,&nbsp;как&nbsp;надо, <a href="https://yandex.ru/support/common/browsers-settings/browsers-java-js-settings.xml">включите&nbsp;в&nbsp;своем&nbsp;браузере&nbsp;javascript</a></div></noscript>
+<!--#include file="menu__main.html"-->
+
+<a href="#"><img src="img/work/vizitka__chetvert.jpg" alt="Визитка Лены Глубко" align="right" style="margin-top: 72px" width="3%"></a>
+
+<div class="container">
+<div class="row">
+    <div class="col-lg-offset-1 col-lg-9 col-xs-12">
+<p class="main__about-me">Меня зовут&nbsp;Лена Глубко, я редактор и&nbsp;коммерческий писатель.</p>
+<p class="main__about-me">Пишу статьи, руководства. Создаю обучающие материалы. Верстаю страницы.</p>
+<p class="main__about-me">Владею основами <span class="smallcaps">ХТМЛ</span>, <span class="smallcaps">ЦСС,</span> знаю Бутстрап, умею работать с&nbsp;Гитхабом. Поэтому вы&nbsp;получите не&nbsp;просто текст в&nbsp;Ворде, а&nbsp;полноценную сверстанную страничку с&nbsp;иллюстрациями. Кстати, этот сайт я&nbsp;верстала сама.</p>
+<p class="main__about-me">Больше всего люблю писать на&nbsp;образовательные темы: понятно и&nbsp;наглядно рассказываю о&nbsp;сложных вещах, придумываю объясняющие иллюстрации, создаю учебные материалы. А&nbsp;еще разбираюсь в&nbsp;бухгалтерии, потому что веду дела <span class="smallcaps">ООО</span>.</p>
+<p class="main__about-me">В&nbsp;свободное время рисую <a href="https://www.youtube.com/channel/UC6r0rO53V2XVlfp7vS_esiw">видеоролики по&nbsp;физике.</a> Делюсь идеями и&nbsp;знаниями <a href="http://elena.glubko.ru/blog">в&nbsp;блоге.</a></p>
+<p class="main__about-me">Эл. почта: <a href="mailto:elena@glubko.ru">elena@glubko.ru</a></p>
+</div>
+</div>
+
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 hidden-xs" style="margin-left: -15px;">
+<div class="tabs">
+<!-- Вкладки -->
+  <ul class="navtab" style="text-align: center;">
+    <li><a class="tabs" href="#1">Все работы</a></li>
+    <li><a class="tabs" href="#2">Мои проекты</a></li>
+    <li><a class="tabs" href="#2">Статьи</a></li>
+    <li><a class="tabs" href="#2">Сайты</a></li>
+    <li><a class="tabs" href="#2">Видеоролики</a></li>
+    <li><a class="tabs" href="#2">Графдизайн</a></li>
+  </ul>
+
+<!-- Проекты -->
+  <div id="1">
+    <div class="container">
+      <div class="row">
+        <!-- Тинькофф «Детские пособия» -->
+        <div class="col-lg-offset-1 col-lg-3 hidden-xs">
+          <a href="http://journal.tinkoff.ru/benefits/"><img src="img/work/tinkoff__benefits.gif" alt="Детские пособия" width="100%"></a>
+          <h3><a href="http://journal.tinkoff.ru/benefits/">Детские пособия</a></h3>
+            <p class="work__p">Рассказываю, как вернуть часть затрат на&nbsp;рождение ребенка и&nbsp;отбить часть ипотеки. Не&nbsp;зря много лет работала бухгалтером&nbsp;&mdash; делюсь законными способами получить с&nbsp;государства больше денег</p>
+        </div>
+        <!-- Тинькофф «Сколько стоит ребенок в первый год» -->
+        <div class="col-lg-3 hidden-xs work__margin_left">
+          <a href="http://journal.tinkoff.ru/baby-cost/"><img src="img/work/tinkoff__childfree.gif" alt="Сколько стоит ребенок в первый год" width="100%"></a>
+          <h3><a href="http://journal.tinkoff.ru/baby-cost/">Сколько стоит ребенок в&nbsp;первый&nbsp;год</a></h3>
+            <p class="work__p">Статья помогает будущим родителям рассчитать бюджет на&nbsp;рождение ребенка. Поскольку возможности у&nbsp;всех разные, разбила затраты на&nbsp;три категории: минимум, средний уровень и&nbsp;максимум. Фишка статьи&nbsp;&mdash; калькулятор, в&nbsp;который можно вбить цены своего региона и&nbsp;прикинуть, во&nbsp;сколько обойдется первый год жизни ребенка</p>
+        </div>
+        <!-- Тинькофф «Как научить ребенка копить» -->
+        <div class="col-lg-3 hidden-xs work__margin_left">
+          <a href="http://journal.tinkoff.ru/crafting/"><img src="img/work/tinkoff__craft.gif" alt="Как научить ребенка копить" width="100%"></a>
+          <h3><a href="http://journal.tinkoff.ru/crafting/">Как научить ребенка копить</a></h3>
+            <p class="work__p">Статья-инструкция с&nbsp;кучей шаблонов и&nbsp;калькулятором в&nbsp;экселе. Все советы проверены на&nbsp;собственных детях</p>
+        </div>
+      </div>
+      <div class="row">
+      <!-- 1Активити -->
+        <div class="col-lg-offset-1 col-lg-3 hidden-xs" style="margin-top: -63px">
+          <a href="http://glubkoelena.github.io/untitled.html" style="text-align: center"><img src="img/work/1activity__logo.jpg" class="work__img_center" alt="Промостраница 1Активити" width="40%"></a>
+          <h3><a href="http://glubkoelena.github.io/untitled.html">Промостраница 1Активити</a></h3>
+          <p class="work__p">Сверстала страницу о&nbsp;программе, которая упрощает работу над текущими проектами, и&nbsp;показала ее&nbsp;в&nbsp;действии</p>
+          </div>
+      <!-- Статья про Гитхаб -->
+      <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: 22px">
+        <a href="http://elenaglubko.github.io" style="margin-left: 25px;"><img src="img/work/tutorial__github.jpg" alt="Гитхаб для редактора" width="75%"></a>
+        <h3><a href="http://elenaglubko.github.io">Гитхаб для редактора</a></h3>
+        <p class="work__p">Написала, нарисовала и&nbsp;сверстала статью про&nbsp;Гитхаб для&nbsp;писателей и&nbsp;редакторов. Статья лежит на&nbsp;Гитхабе</p>
+      </div>
+      <!-- Лего-умножение -->
+      <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: -90px">
+          <iframe width="100%" src="https://www.youtube.com/embed/PHVWm2cS7UU" frameborder="0" allowfullscreen></iframe>
+            <h3><a href="https://www.youtube.com/embed/PHVWm2cS7UU">Умножение без мучения</a></h3>
+            <p class="work__p">Сделала видеоролик, который помогает выучить таблицу умножения за&nbsp;пару дней. Сила в&nbsp;подходе ;-)</p>
+          </div>
+        </div>
+      <div class="row">
+          <!-- Таблица умножения -->
+        <div class="col-lg-offset-1 col-lg-3 hidden-xs" style="margin-top: -88px">
+          <a href="http://umdex.ru/predmety/matematika/elementarnaya-matematika/arifmetika/verevochnaya-tablica-umnozheniya/"><img src="img/work/umdex__materials_multiplication.png" class="img__bordered" alt="Таблица умножения" width="100%"></a>
+          <h3><a href="http://umdex.ru/predmety/matematika/elementarnaya-matematika/arifmetika/verevochnaya-tablica-umnozheniya/">Веревочная таблица умножения</a></h3>
+          <p class="work__p">Полезна для ребят, которые только знакомятся с&nbsp;умножением. Нити и&nbsp;их&nbsp;пересечения помогут разглядеть, как числа перемножаются друг с&nbsp;другом и&nbsp;почему 2 &times; 3&nbsp;не равно 5</p>
+        </div>
+        <!-- Лего-таблица умножения -->
+        <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: 20px">
+           <a href="http://umdex.ru/predmety/matematika/elementarnaya-matematika/arifmetika/lego-umnozhenie/"><img src="img/work/umdex__lego-multiplication.jpg" class="work__img_center" alt="Лего-умножение" width="50%"></a>
+           <h3><a href="http://umdex.ru/predmety/matematika/elementarnaya-matematika/arifmetika/lego-umnozhenie/">Лего-таблица умножения</a></h3>
+           <p class="work__p">Наглядное умножение при помощи<br>Лего. Включает таблицу Пифагора<br>и&nbsp;примеры, которые помогают<br>усвоить и&nbsp;закрепить умножение</p>
+         </div>
+         <!-- Теорема Пифагора -->
+         <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: -85px"><a href="http://blog.umdex.ru/teorema-pifagora-lego-dokazatelstvo/"><img src="img/work/umdex__pifagor.jpg" alt="Доказательство теоремы Пифагора" class="work__img_center" width="100%"></a>
+           <h3><a href="http://blog.umdex.ru/teorema-pifagora-lego-dokazatelstvo/">Доказательство теоремы Пифагора</a></h3>
+           <p class="work__p">При помощи Лего доказала, почему гепотенуза равна сумме квадратов двух катетов</p>
+           </div>
+         </div>
+        <div class="row">
+           <!-- Дудлик -->
+          <div class="col-lg-offset-1 col-lg-3 hidden-xs" style="margin-top: 20px">
+          <a href="https://www.youtube.com/channel/UC6r0rO53V2XVlfp7vS_esiw"><img src="img/work/doodlik__yuotube.jpeg" alt="Дудлик: рисованные видеоролики»" width="100%"></a>
+          <h3><a href="https://www.youtube.com/channel/UC6r0rO53V2XVlfp7vS_esiw">Дудлик</a></h3>
+              <p class="work__p">Нарисовала два&nbsp;видеоролика по&nbsp;физике. Скоро будет больше</p>
+            </div>
+          <!-- «Рисуем по частям: Петсон и Финдус» -->
+          <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: -82px">
+            <a href="http://blog.umdex.ru/tag/risuem-po-shagam/" style="border-bottom:none;"><img src="img/work/umdex__izo.jpg" alt="Рисуем по шагам: Петсон и Финдус" width="100%"></a>
+          <h3><a href="http://blog.umdex.ru/tag/risuem-po-shagam/">Рисуем по шагам: Петсон и&nbsp;Финдус</a></h3>
+            </div>
+            <!-- «Жил-был Сучок» -->
+          <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: -137px">
+            <a href="http://"><img src="img/work/umdex__suchok.jpg" alt="Книга «Жил-был Сучок»" width="100%"></a>
+          <h3><a href="http://">«Жил-был Сучок»</a></h3>
+              <p class="work__p">Придумала и&nbsp;нарисовала книжку для маленьких читателей</p>
+        </div>
+</div>
+<div class="row">
+  <div class="col-lg-4 hidden-xs"></div>
+  <!-- Сайт Умдекса -->
+  <div class="col-lg-3 hidden-xs work__margin_left" style="margin-top: -152px">
+    <a href="http://"><img src="img/work/umdex__site.jpg" alt="Сайт Умдекса" width="100%"></a>
+  <h3><a href="http://">Сайт Умдекса</a></h3>
+      <p class="work__p">Умдекс&nbsp;&mdash; это площадка, где преподаватели и&nbsp;талантливые родители продают или дают скачать бесплатно свои учебные материалы</p>
+  </div>
+</div>
+</div>
+</div>
+
+
+       <!-- <div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs" style="margin-top: -155px; margin-left: 520px;">
+<a href="http://elena.glubko.ru/blog/ya-sdelyal"><img src="img/work/sdelyal.jpeg" alt="Я сделяль" width="40%"></a>
+</div>
+      </div> -->
+
+
+    <div id="2">
+        <div class="col-lg-4 col-xs-12">
+          <ul class="work__ul">
+            <h3>Статьи</h3>
+            <li><b>Тинькофф-журнал</b></li>
+          <li><a href="http://">Сколько стоит ребенок в&nbsp;первый год</a></li>
+           <li><a href="http://">Как научить ребенка копить</a></li>
+          </ul>
+        </div>
+    </div>
+</div>
+  </div>
+</div>
+</div>
+
+  <!-- Вкладки -->
+ <script type="text/javascript">
+$(function () {
+    var tabContainers = $('.tabs > div');
+    tabContainers.hide().filter(':first').show();
+
+    $('.tabs ul.navtab a').click(function () {
+        tabContainers.hide();
+        tabContainers.filter(this.hash).show();
+        $('.tabs ul.navtab a').removeClass('selected');
+        $(this).addClass('selected');
+        return false;
+    }).filter(':first').click();
+});
+</script>
+</body>
