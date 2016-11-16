@@ -128,6 +128,10 @@ font-size:14px;
 font-style: italic;
 }
 
+.work__xs {
+	padding-bottom: 40px;
+}
+
 .img__bordered {
 border: 1px solid #eeeeee;
 }
@@ -145,13 +149,19 @@ border: 1px solid #eeeeee;
 }
 
 .main__menu {
-	margin-top: 5px; margin-left: 10px; list-style: none;
+margin-top: 3px; list-style: none;
 }
 
 .main__menu_item {
-	padding: 15px;
-	display: inline-block;
+	padding: 0 15 15 0;
 }
+
+.main__menu_item_xs {
+	padding: 0 30 0 0;
+display: inline-block;
+}
+
+
 
 .vizitka__p {
 	font-family: Georgia,"Times New Roman",Times,serif;
