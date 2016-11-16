@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
+  color: #000;
+    border-color: rgba(0,0,0,0.15);
   &:hover, &:active {
-    color: $blue;
+    color: #d04000
+    border-color: rgba(208,64,0,0.15);
   }
 }
 
@@ -116,7 +116,6 @@ img {
 }
 
 .date {
-  font-style: italic;
   color: $gray;
 }
 
