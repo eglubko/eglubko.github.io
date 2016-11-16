@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="date">
-  {% include date.html date=page.date %}
+  {{ page.date | localize: "%d %B %Y" }}
   </div>
 
   <div class="entry">
