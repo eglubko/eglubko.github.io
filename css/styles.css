@@ -1,0 +1,224 @@
+/*Основные стили: ссылки, типографика*/
+
+a{text-decoration: none;
+color: #0060a0;
+border-bottom: 1px solid;
+border-bottom-color: rgba(0, 96, 160, 0.2);
+}
+
+
+a:visited{color: #6a2795;border-bottom-color: rgba(106, 39, 149, 0.2);}
+
+a:hover, a:active{
+color: #d04000;
+text-decoration: none;
+border-bottom-color: rgba(208, 64, 0, 0.2);}
+
+a:focus { text-decoration:none; }
+
+
+
+.smallcaps {
+	  font-size: 0.875em;
+	  letter-spacing: 0.15em;
+    margin-right: -0.15em;
+	}
+
+	.bordered {
+    border: 1px solid #eeeeee;
+}
+
+.work__multiplication_bordered {
+    border: 3px solid black;
+}
+
+.container {
+	margin-top: 65px;
+
+}
+
+/*Джаваскрипт не работает*/
+.java-doesnt-work,
+.java-doesnt-work a {
+	background-color: red;
+	color: white;
+	font-size: 14px;
+	text-align:center;
+}
+
+.java-doesnt-work a {
+	border-bottom:1px solid
+}
+
+/*Табы*/
+a.tabs {
+	border-bottom: 1px dashed;
+}
+
+a.tabs:hover {
+	color: #e14538;
+	border-bottom: 1px dashed #e14538;
+	cursor: pointer;
+
+}
+
+
+
+ul.navtab {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ul.navtab li {
+padding-left: 4px;
+padding-right: 15px;
+text-decoration: none;
+display: inline;
+}
+
+ul.navtab li .selected,
+ul.navtab li .selected:hover {
+    background: #eee;
+		border: none;
+		color: rgb(0, 0, 0);
+		padding: 6 6 6 6;
+		border-radius: 3px;
+}
+
+ul.navtab li:focus {
+outline: 0;
+}
+
+
+
+div.tabs p {
+	font-size: 14px;
+	margin-bottom: 26px;
+}
+
+div.tabs h3 {
+	font-size: 16px;
+}
+
+
+/*Главная страница*/
+.main__about-me_text {
+	font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 22px;
+  line-height: 1.42857143;
+}
+.main__about-me_avatar
+.main.about-me_avatar_text {
+	font-size: 12px;
+	margin-top: 0.6em;
+}
+
+/*Портфолио*/
+
+.work__ul {
+list-style:none;
+padding:0px;
+margin:0px;
+margin-bottom:30px;
+font-size:14px;
+}
+
+.work__client {
+font-style: italic;
+}
+
+.work__xs {
+	padding-bottom: 40px;
+}
+
+.img__bordered {
+border: 1px solid #eeeeee;
+}
+
+
+
+.main__about-me {
+	font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 22px;
+  line-height: 1.42857143;
+}
+
+.main__image_circle {
+    border-radius: 50%;
+}
+
+.main__menu {
+margin-top: 3px; list-style: none;
+}
+
+.main__menu_item {
+	padding: 0 15 15 0;
+}
+
+.main__menu_item_xs {
+	padding: 0 10 0 0;
+display: inline-block;
+}
+
+.main__portfolio_articles_xs {
+margin-top: 3px;
+list-style: none;
+}
+
+.main__portfolio_articles_xs_li {
+	margin-left: -40px;
+}
+
+
+.blog__post {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 18px;
+margin-bottom: 1em;
+line-height: 1.7;
+}
+
+.blog__note {
+	font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+	margin-left: 30px;
+	margin-bottom: 35px;
+}
+
+.blog__post_img {
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+
+.blog__post_date {
+	font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.42857143;
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+
+.blog__note_subscribe_btn, .blog__note_subscribe_btn:visited {
+    display: none;
+    background: rgba(231, 231, 231, 0.8);
+    color: #000;
+    transition: background .33s ease-out, color .33s ease-out, fill .33s ease-out;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 0;
+    height: 22px;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+    padding: 1px 8px
+}
+
+.blog__note_subscribe_btn:hover, .blog__note_subscribe_btn.hover {
+    background: rgba(212, 212, 212, 0.8);
+    color: #000
+}
+
+.blog__note_subscribe_btn_visible {
+    display: inline-block;
+	}
