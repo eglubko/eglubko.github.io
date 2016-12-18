@@ -24,6 +24,7 @@ a:focus { text-decoration:none; }
     margin-right: -0.15em;
 	}
 
+
 	.bordered {
     border: 1px solid #eeeeee;
 }
@@ -200,6 +201,12 @@ font-weight: normal;
 	margin-top: 20px;
 	padding-bottom: 50px;
 }
+
+.blog__post_smallcaps {
+		  font-size: 1.5em;
+		  letter-spacing: 0.15em;
+	    margin-right: -0.15em;
+		}
 
 .blog__note_subscribe_btn, .blog__note_subscribe_btn:visited {
     display: none;
