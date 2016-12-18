@@ -138,6 +138,17 @@ border: 1px solid #eeeeee;
 }
 
 
+ .work__margin_left{
+   margin-left: 20px;
+ }
+ .work__p {
+   font-size: 12px !important;
+ }
+.work__img_center {
+  display: block;
+  margin: 1ex auto;
+}
+.bordered { border: 1px solid #e2e2e2;}
 
 .main__about-me {
 	font-family: Georgia,"Times New Roman",Times,serif;
