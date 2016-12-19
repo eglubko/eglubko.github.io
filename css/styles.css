@@ -6,7 +6,6 @@ border-bottom: 1px solid;
 border-bottom-color: rgba(0, 96, 160, 0.2);
 }
 
-
 a:visited{color: #6a2795;border-bottom-color: rgba(106, 39, 149, 0.2);}
 
 a:hover, a:active{
@@ -16,7 +15,9 @@ border-bottom-color: rgba(208, 64, 0, 0.2);}
 
 a:focus { text-decoration:none; }
 
-
+.container {
+	margin-top: 65px;
+}
 
 .smallcaps {
 	  font-size: 0.875em;
@@ -24,18 +25,8 @@ a:focus { text-decoration:none; }
     margin-right: -0.15em;
 	}
 
-
-	.bordered {
-    border: 1px solid #eeeeee;
-}
-
-.work__multiplication_bordered {
-    border: 3px solid black;
-}
-
-.container {
-	margin-top: 65px;
-
+.img__bordered {
+border: 1px solid #e2e2e2;
 }
 
 /*Джаваскрипт не работает*/
@@ -46,7 +37,6 @@ a:focus { text-decoration:none; }
 	font-size: 14px;
 	text-align:center;
 }
-
 .java-doesnt-work a {
 	border-bottom:1px solid
 }
@@ -60,10 +50,7 @@ a.tabs:hover {
 	color: #e14538;
 	border-bottom: 1px dashed #e14538;
 	cursor: pointer;
-
 }
-
-
 
 ul.navtab {
 list-style: none;
@@ -91,8 +78,6 @@ ul.navtab li:focus {
 outline: 0;
 }
 
-
-
 div.tabs p {
 	font-size: 14px;
 	margin-bottom: 26px;
@@ -101,7 +86,6 @@ div.tabs p {
 div.tabs h3 {
 	font-size: 16px;
 }
-
 
 /*Главная страница*/
 .main__about-me_text {
@@ -114,42 +98,6 @@ div.tabs h3 {
 	font-size: 12px;
 	margin-top: 0.6em;
 }
-
-/*Портфолио*/
-
-.work__ul {
-list-style:none;
-padding:0px;
-margin:0px;
-margin-bottom:30px;
-font-size:14px;
-}
-
-.work__client {
-font-style: italic;
-}
-
-.work__xs {
-	padding-bottom: 40px;
-}
-
-.img__bordered {
-border: 1px solid #eeeeee;
-}
-
-
- .work__margin_left{
-   margin-left: 20px;
- }
- .work__p {
-   font-size: 12px !important;
- }
-.work__img_center {
-  display: block;
-  margin: 1ex auto;
-}
-.bordered { border: 1px solid #e2e2e2;}
-
 .main__about-me {
 	font-family: Georgia,"Times New Roman",Times,serif;
   font-size: 22px;
@@ -182,7 +130,36 @@ list-style: none;
 	margin-left: -40px;
 }
 
+/*Портфолио*/
+.work__ul {
+list-style:none;
+padding:0px;
+margin:0px;
+margin-bottom:30px;
+font-size:14px;
+}
 
+.work__client {
+font-style: italic;
+}
+
+.work__xs {
+	padding-bottom: 40px;
+}
+
+ .work__margin_left{
+   margin-left: 20px;
+ }
+
+ .work__p {
+   font-size: 12px !important;
+ }
+
+.work__img_center {
+  display: block;
+  margin: 1ex auto;
+}
+/*Лента и посты*/
 .blog__post {
 	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: 18px;
@@ -195,7 +172,7 @@ line-height: 1.7;
   font-size: 18px;
   line-height: 1.42857143;
 	font-style: normal;
-font-weight: normal;
+	font-weight: normal;
 	margin-left: 30px;
 	margin-bottom: 35px;
 }
